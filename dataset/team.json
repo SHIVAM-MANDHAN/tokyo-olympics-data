@@ -1,0 +1,24 @@
+{
+	"name": "team",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "teams_lake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "teams",
+				"folderPath": "raw-data",
+				"fileSystem": "tolyo-olympic-data"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
