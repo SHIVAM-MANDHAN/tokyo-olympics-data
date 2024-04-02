@@ -1,0 +1,9 @@
+{
+	"name": "tokyo-olympic-df-shivam",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dfb56b9b-2491-4d0d-ad07-f06c31649b43",
+		"tenantId": "0f04357e-8ea4-4ab2-a977-c1c211679846"
+	}
+}
